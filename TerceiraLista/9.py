@@ -11,7 +11,8 @@ def tamanhoLista(lista):
 num = 1 
 while num != -1:
     num = int(input())
-    lista.append(num)
+    if num != -1:
+        lista.append(num)
 
 listaRepetidos = []
 
